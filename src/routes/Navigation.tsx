@@ -14,6 +14,7 @@ export const Navigation = () => {
 				<nav>
 					<img src={logo} alt="React Logo" />
 					<ul>
+						{/* FIXME */}
 						<li>
 							<NavLink to="/lazy1" activeClassName="nav-active" exact>
 								Lazy1
@@ -35,6 +36,7 @@ export const Navigation = () => {
 				{/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
 				<Switch>
+					{/* FIXME */}
 					<Route path="/lazy1">
 						<LazyPage1 />
 					</Route>
