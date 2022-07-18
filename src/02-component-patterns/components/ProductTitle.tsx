@@ -2,9 +2,10 @@ import { useContext } from 'react';
 import { ProductContext } from './ProductCard';
 import styles from '../styles/styles.module.css';
 
-interface Props {
+export interface Props {
 	title?: string;
 	className?: string;
+	activeClass?: string;
 }
 
 export const ProductTitle = ({ title, className }: Props) => {
