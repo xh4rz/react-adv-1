@@ -18,6 +18,10 @@ export const ShoppingPage = () => {
 				product={product}
 				className="bg-dark text-white"
 				key={product.id}
+				initialValues={{
+					count: 4,
+					maxCount: 10
+				}}
 			>
 				<ProductImage
 					className="custom-image"
