@@ -1,4 +1,4 @@
-import { useEffect, useRef, /* useRef ,*/ useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { InitialValues, onChangeArgs, Product } from '../interfaces/interfaces';
 
 interface useProductArgs {
@@ -39,5 +39,5 @@ export const useProduct = ({
 		isMounted.current = true;
 	}, []);
 
-	return { counter, increaseBy };
+	return { counter, increaseBy, maxCount: initialValues?.maxCount };
 };
