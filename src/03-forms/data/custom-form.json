@@ -12,5 +12,12 @@
         "placeholder": "Gonzalez",
         "label": "Last Name",
         "value": ""
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "harold@google.com",
+        "label": "Email",
+        "value": ""
     }
 ]
